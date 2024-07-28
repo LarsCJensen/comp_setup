@@ -5,7 +5,7 @@ echo:
 echo Installing recommended VSCode extensions
 echo =========================================
 echo:
-winget install -e --id vscode
+winget install -e --id Microsoft.VisualStudioCode
 call "%LOCALAPPDATA%\Programs\Microsoft VS Code\bin\code" --install-extension ms-vscode-remote.remote-wsl
 call "%LOCALAPPDATA%\Programs\Microsoft VS Code\bin\code" --install-extension eamodio.gitlens
 call "%LOCALAPPDATA%\Programs\Microsoft VS Code\bin\code" --install-extension ms-python.python
