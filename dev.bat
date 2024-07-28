@@ -1,3 +1,6 @@
+winget install -e --id Python.Python.3.11
+winget install --id Git.Git -e --source winget
+
 echo:
 echo Installing recommended VSCode extensions
 echo =========================================
@@ -55,7 +58,4 @@ if %ERRORLEVEL% EQU 50 (
     )
 )
 
-
-winget install -e --id Python.Python.3.11
-winget install --id Git.Git -e --source winget
 winget install --id=Oracle.MySQL -e
